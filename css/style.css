@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 91px 124px;
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    line-height: 101.38%;
+    font-weight: bold;
+    /* margin-bottom: 0; */
+}
+
+.container-top {
+    display: flex;
+}
+
+.block-text {
+    width: 660px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.par-one {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.par-two {
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+
+.block-image {
+    position: relative;
+    width: 365px;
+    margin-left: 147px;
+}
+
+.man {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 40px;
+    top: 30px;
+}
+
+.circle {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 0;
+    top: 320px;
+}
+
+/*section bottom*/ 
+
+.bottom-section {
+    display: flex;
+}
+
+.image-bot {
+    position: relative;
+    width: 232px;
+    height: 240px;
+    margin-top: 74px;
+}
+.img-bot-man {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 0;
+    top: 0;
+}
+
+.img-bot-circle {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 30px;
+    top: 190px;
+}
+
+.bottom-blocks {
+    display: flex;
+    margin-top: 120px;
+}
+
+.mini_block_1 {
+    margin-left: 131px;
+}
+
+.mini_block_2 {
+    margin-left: 106px;
+}
+
+.mini_block_3 {
+    margin-left: 99px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.mini_block p {
+    font-size: 18px;
+    margin-top: 11px;
+}
+
+
+
+/*media*/
+@media (min-width: 830px) and (max-width:1399px) {
+    .wrapper {
+        margin: 0 auto;
+        padding: 56px 71px 180px 72px;
+    }
+    h1 {
+        font-family: Roboto Slab;
+        font-size: 32px;
+    }
+
+    
+    .block-text {
+        width: 383px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    
+    .par-two {
+        margin-top: 20px;
+    }
+
+    .block-image {
+        position: relative;
+        width: 395px;
+        margin-left: 95px;
+    }
+    .man {
+        width: 181.86px;
+        height: 182.44px;
+        left: 15px;
+        top: 19px;
+    }
+    .circle {
+        width: 211.98px;
+        height: 34.17px;
+        left: -3px;
+        top: 186px;
+    }
+    .image-bot{
+        display: none;
+    } 
+    .bottom-blocks {
+        margin-top: 52px;
+    }
+    h2 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .mini_block p {
+        font-size: 11px;
+        line-height: 130%;
+        margin-top: 4px;
+    }
+    .mini_block_1 {
+        margin-left: 0;
+    }
+    .mini_block_2 {
+        margin-left: 57px;
+    }
+    .mini_block_3 {
+        margin-left: 52px;
+    }
+
+
+}
+
+
+@media (min-width: 375px) and (max-width:829px) {
+    .wrapper {
+        padding: 56px 35px 115px 35px;
+    }
+    h1 {
+        font-family: Roboto Slab;
+        font-size: 26px;
+    }
+    .container-top {
+       flex-wrap: wrap;
+    }
+
+    .block-text {
+        font-size: 12px;
+        line-height: 18px;
+        width: 308px;
+    }
+    .par-one {
+        margin-top: 5px;
+    }
+    .par-two {
+        margin-top: 18px;
+    }
+
+    /* .block-image {
+        width: 171px;
+        height: 161px;
+        flex-wrap: wrap;
+        margin: 0;
+    } */
+    .man {
+        width: 143.55px;
+        height: 151.29px;
+        left: -67px;
+        top: 14px;
+    }
+    .circle {
+        width: 149.98px;
+        height: 23.17px;
+        left: -74px;
+        top: 151px;
+    }
+    .image-bot{
+        display: none;
+    }
+    .bottom-blocks {
+        margin-top: 213px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    .mini_block p {
+        font-size: 10px;
+        margin-top: 1px;
+    }
+    .mini_block_1 {
+        width: 86px;
+        margin-left: 0;
+    }
+    .mini_block_2 {
+        width: 86px;
+        margin-left: 32px;
+    }
+    .mini_block_3 {
+        width: 86px;
+        margin-left: 32px;
+    }
+
+    
+}
